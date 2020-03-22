@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+	margin: 0;
+}
+
+#wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#welcome-section {
+	text-align: center;
+	font-family: 'Bowlby One SC', cursive;
+	order: 1;
+	background-color: #363636;
+	width: 100%;
+	height: 200px;
+	padding: 200px;
+}
+
+h1 {
+	font-size: 40px;
+	color: #F5FEFD;	
+}
+
+h2 {
+	font-size: 25px;
+	color: #E63C00
+}
+
+#projects {
+	order: 2;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background-color: #2E8B57;
+	width: 100%;
+	padding-bottom: 75px;
+}
+
+h3 {
+	padding: 100px;
+	font-size: 25px;
+	font-weight: 2000;
+	color: #FFF;
+}
+
+#project-grid{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-bottom: 100px;
+}
+
+#project-tile a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 20px;
+}
+
+#project-tile {
+	padding: 15px;
+}
+
+.project-name {
+	background-color: #043927;
+	color: #FFF;
+	margin-top: 0px;
+	padding: 15px;
+}
+
+#show {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 150px;
+	font-weight: bold;
+	font-family: inherit;
+	background-color: #043927;
+	color: #FFF;
+	margin-top: -60px;
+}
+
+#profile {
+	order: 3;
+	background-color: #710C04;
+	width: 100%;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	padding: 300px;
+}
+
+#profile h1{
+	color: #FFF;
+	font-weight: 5;
+}
+
+#profile h2{
+	color: #FFF;
+	font-weight: 5;
+}
+
+#icons {
+	color: #FFF;
+}
+
+#profile-link {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 100px;
+}
+
+#navbar {
+	width: 100%;
+	padding: 5px;
+	background-color: #710C04;
+	position: fixed;
+}
+
+#items {
+	display: flex;
+	list-style-type: none;
+	text-align: right;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+#items h2{
+	padding-left: 50px;
+	margin-right: 20px;
+	color: #FFF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navlink {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	#navbar, #main-doc{
+		flex-direction: column;
+		flex-wrap: wrap;
+		text-align: center;
+	}
+}
